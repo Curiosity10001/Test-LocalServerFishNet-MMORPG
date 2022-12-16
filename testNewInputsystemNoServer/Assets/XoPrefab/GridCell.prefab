@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2880813875453693964}
+  - component: {fileID: -6199458942317491866}
   m_Layer: 3
   m_Name: GridCell
   m_TagString: Untagged
@@ -32,6 +33,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6199458942317491866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2717830386304115329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8178066b53e16274b9cdb95f05801b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grid:
+    serializedVersion: 2
+    m_Bits: 8
+  materialX: {fileID: 2100000, guid: e27a9d4386596074ebfbc31748d88eed, type: 2}
+  materialO: {fileID: 2100000, guid: 2ddd4460026f1c945ba61035a6b5ad05, type: 2}
+  defaultMat: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  material0: {fileID: 0}
+  text: {fileID: 0}
+  buttonX: {fileID: 0}
+  buttonO: {fileID: 0}
 --- !u!1 &5053815634960965540
 GameObject:
   m_ObjectHideFlags: 0
